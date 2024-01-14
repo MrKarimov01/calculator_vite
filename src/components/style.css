@@ -1,0 +1,98 @@
+.calculator_body
+{
+    width: 600px;
+    height: auto;
+    border: 2px solid white;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
+filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+}
+.monitor{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 20px;
+    font-size:72px;
+    color: white;
+    border-bottom:2px solid white;
+}
+
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.nummbers{
+    width:  75%;
+    border-right: 2px solid white;
+
+}
+.argument{
+    width:  25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nummbers div{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 2px solid white;
+
+}
+.nummbers div:last-child{
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+.nummbers div:last-child button{
+    width: 100%;
+}
+.nummbers div button{
+    width: 150px;
+    height: 150px;
+
+    font-size: 72px;
+    background: transparent;
+    border: none;
+    color: white;
+}
+.nummbers div button:nth-child(2){
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+.nummbers div button:hover{
+    background-color: rgba(176, 176, 176, 0.37);
+}
+.nummbers div button:active{
+    color: rgb(196, 196, 196);
+}
+.argument button{
+    width: 100%;
+    height: 150px;
+    
+    font-size: 72px;
+    background: transparent;
+    border: none;
+    color: rgb(255, 255, 255);
+    
+}
+.argument button:nth-child(2),button:nth-child(3){
+    
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+}
+
+.argument button:hover{
+    background-color: rgba(176, 176, 176, 0.37);
+}
+.argument button:active{
+    color: rgb(196, 196, 196);
+}

@@ -1,0 +1,23 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+body{
+background-image: radial-gradient(#15ff00,#3ba831,#3c7e36 ,#3a5e37,#232323,#000);
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+} 
+
+a{
+  text-decoration: none;
+}
+button{
+  cursor: pointer;
+}
